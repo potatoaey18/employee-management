@@ -1,0 +1,25 @@
+@import "../../../css/onboarding.quasar.variables.scss";
+
+.add-employee {
+  .onboarding-main-scroll {
+    padding: 16px 8px;
+
+    .text-weight-medium span {
+      color: #ff0000;
+    }
+
+    .q-radio__inner {
+      color: #1e1e1e;
+    }
+
+    .q-radio__inner--truthy {
+      color: $accent-1;
+    }
+  }
+}
+
+.q-notification__actions {
+  left: 96px;
+  top: -8px;
+  position: relative;
+}

@@ -1,0 +1,57 @@
+@import "../../../css/onboarding.quasar.variables.scss";
+
+.employees {
+  .minmax-width {
+    min-width: 130px;
+    max-width: 130px;
+    @media screen and (min-width: $breakpoint-sm-max) {
+      min-width: 190px;
+      max-width: 190px;
+    }
+  }
+
+  .minmax-width-190 {
+    min-width: 190px;
+    max-width: 190px;
+  }
+
+  .onboarding-main-scroll {
+    padding: 16px 8px;
+  }
+
+  .onboarding-table tr .table-menu .q-btn {
+    color: #1c1b1f;
+    opacity: 1;
+  }
+}
+.q-menu {
+  box-shadow: none;
+  border-radius: 8px;
+  .q-hoverable:hover {
+    color: $primary;
+    background-color: $accent-0;
+  }
+  .q-list {
+    min-width: 160px;
+    max-width: 184px;
+  }
+}
+
+.onboarding-dialog-background {
+  .onboarding-dialog-container {
+    .width-300 {
+      @media screen and (min-width: 1024px) and (max-width: 1920px) {
+        width: 350px;
+      }
+      @media screen and (min-width: 1920px) {
+        width: 500px;
+      }
+    }
+  }
+}
+
+.q-notification__actions {
+  left: 96px;
+  top: -8px;
+  position: relative;
+}
